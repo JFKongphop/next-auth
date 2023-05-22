@@ -7,7 +7,9 @@
     "build": "next build",
     "s": "next start",
     "lint": "next lint",
-    "push": "git push origin main"
+    "push": "git push origin main",
+    "add": "git add .",
+    "com": "git commit -m"
   },
   "dependencies": {
     "@types/node": "20.2.1",
