@@ -27,9 +27,8 @@ export const authOptions = {
       clientId: process.env.TWITTER_CLIENT_ID as string,
       clientSecret: process.env.TWITTER_CLIENT_SECRET as string
     })
-
-  
   ],
+  secret: process.env.NEXTAUTH_SECRET
 }
 
 export default NextAuth(authOptions)
