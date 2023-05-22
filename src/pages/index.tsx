@@ -21,6 +21,7 @@ export default function Home() {
                   alt="profile"
                   className="w-32 h-32 rounded-full"
                 />
+                <h3>{session.user?.email}</h3>
               </div>
             ) : (
               <div className="">
