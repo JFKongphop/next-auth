@@ -6,7 +6,8 @@
     "start": "next dev",
     "build": "next build",
     "s": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "push": "git push origin main"
   },
   "dependencies": {
     "@types/node": "20.2.1",
